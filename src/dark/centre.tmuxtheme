@@ -1,0 +1,17 @@
+# Overriding some values in the dark/default theme
+
+#= include "dark/_color"
+#= include "_theme-format"
+
+#= include "_theme-markers"
+
+# Just flipping and adding some colour to the prefixes of the window tabs, so it will look like a pill rather than a arrow
+set -goqF @theme-marker-window-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-bg}]"
+set -goqF @theme-marker-window-active-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-active}]"
+
+#= include "_theme-options"
+
+# Moving windows tabs to the center
+set -goqF  @theme-status-justify centre # centre is actually correct
+
+#= include "_apply"
