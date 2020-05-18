@@ -1,6 +1,8 @@
 set -goq @theme-box-primary "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-primary}]"
 set -goq @theme-box-secondary "#[fg=#{@dawn-color-primary},bg=#{@dawn-color-highlight}]"
 set -goq @theme-box-highlight "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-highlight}]"
+set -goq @theme-box-active "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-active}]"
+set -goq @theme-box-transparent "#[fg=#{@dawn-color-primary},bg=#{@dawn-color-bg}]"
 
 set -goq @theme-marker-left-first "#[fg=#{@dawn-color-active},bg=#{@dawn-color-marker}]"
 set -goq @theme-marker-left-second "#[fg=#{@dawn-color-marker},bg=#{@dawn-color-bg}]"
@@ -26,3 +28,8 @@ set -goq @theme-marker-right-secondary-suffix "#[fg=#{@dawn-color-secondary},bg=
 set -goq @theme-marker-right-highlight-prefix "#{@theme-box-highlight}"
 set -goq @theme-marker-right-highlight-suffix "#[fg=#{@dawn-color-highlight},bg=#{@dawn-color-bg}]"
 
+set -goq @theme-marker-window-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-bg}]"
+set -goq @theme-marker-window-suffix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-bg}]"
+
+set -goq @theme-marker-window-active-prefix "#{@theme-box-active}"
+set -goq @theme-marker-window-active-suffix "#[fg=#{@dawn-color-active},bg=#{@dawn-color-bg}]"
