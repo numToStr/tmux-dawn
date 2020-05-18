@@ -8,4 +8,6 @@ set -goq @theme-status-format-right-third "%H:%M:%S"
 set -goq @theme-status-format-right-fourth "%a %b %d"
 
 set -goq @theme-window-status-format-current "#I:#W#F"
-set -goq @theme-window-status-format "#I:#W#F"
+
+# DON'T USE: Something weird is going on with this variable
+# set -goq @theme-window-status-format "#I:#W#F"

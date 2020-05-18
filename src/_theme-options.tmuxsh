@@ -11,8 +11,8 @@ set -goqF @theme-message-fg "#{@dawn-color-onhighlight}"
 set -goqF @theme-message-command-bg "#{@dawn-color-highlight}"
 set -goqF @theme-message-command-fg "#{@dawn-color-onhighlight}"
 
-set -goqF @theme-display-panes-active-colour "#{@powerline-color-grey-6}"
-set -goqF @theme-display-panes-colour "#{@powerline-color-grey-1}"
+set -goqF @theme-display-panes-active-colour "#{@dawn-color-active}"
+set -goqF @theme-display-panes-colour "#{@dawn-color-bg}"
 
 set -goqF @theme-mode-bg "#{@dawn-color-bg}"
 set -goqF @theme-mode-fg "#{@dawn-color-primary}"
@@ -27,7 +27,7 @@ set -goqF @theme-status-fg "#{@dawn-color-primary}"
 
 # set -goqF @theme-status-left "#[fg=#{@powerline-status-left-area-left-fg},bg=#{@powerline-status-left-area-left-bg},bold] #{@themepack-status-left-area-left-format} #[fg=#{@powerline-status-left-area-left-bg},bg=#{@powerline-status-left-area-middle-bg},nobold]#[fg=#{@powerline-status-left-area-middle-fg},bg=#{@powerline-status-left-area-middle-bg}] #{@themepack-status-left-area-middle-format} #[fg=#{@powerline-status-left-area-middle-bg},bg=#{@powerline-status-left-area-right-bg}]#[fg=#{@powerline-status-left-area-right-fg},bg=#{@powerline-status-left-area-right-bg}] #{@themepack-status-left-area-right-format} #[fg=#{@powerline-status-left-area-right-bg},bg=#{@theme-status-bg},nobold]"
 
-set -goqF @theme-status-left "#{@theme-marker-left-first}#{@theme-marker-left-second}#{@theme-marker-left-highlight-prefix}#{@theme-box-highlight} #{@theme-status-format-left-first} #{@theme-marker-left-highlight-suffix}#{@theme-marker-left-primary-prefix}#{@theme-box-primary} #{@theme-status-format-left-second}  #{@theme-marker-left-primary-suffix}#{@theme-marker-left-secondary-prefix}#{@theme-box-secondary} #{@theme-status-format-left-third} #{@theme-marker-left-secondary-suffix}"
+set -goqF @theme-status-left "#{@theme-marker-left-first}#{@theme-marker-left-second}#{@theme-marker-left-highlight-prefix}#{@theme-box-highlight} #{@theme-status-format-left-first} #{@theme-marker-left-highlight-suffix}#{@theme-marker-left-primary-prefix}#{@theme-box-primary} #{@theme-status-format-left-second} #{@theme-marker-left-primary-suffix}#{@theme-marker-left-secondary-prefix}#{@theme-box-secondary} #{@theme-status-format-left-third} #{@theme-marker-left-secondary-suffix}"
 set -goqF @theme-status-left-bg "#{@dawn-color-bg}"
 set -goqF @theme-status-left-fg "#{@dawn-color-bg}"
 set -goq  @theme-status-left-length 150
@@ -44,6 +44,6 @@ set -goqF @theme-window-status-activity-fg "#{@dawn-color-primary}"
 set -goq  @theme-window-status-separator ""
 set -goqF @theme-window-status-current-bg "#{@dawn-color-bg}"
 set -goqF @theme-window-status-current-fg "#{@dawn-color-primary}"
-set -goqF @theme-window-status-format "#{@theme-marker-window-prefix}#{@theme-box-transparent} #{@theme-window-status-format} #{@theme-marker-window-suffix}"
+set -goqF @theme-window-status-format "#{@theme-marker-window-prefix}#{@theme-box-transparent} #{@theme-window-status-format-current} #{@theme-marker-window-suffix}"
 set -goqF @theme-window-status-current-format "#{@theme-marker-window-active-prefix}#{@theme-box-active} #{@theme-window-status-format-current} #{@theme-marker-window-active-suffix}"
  
