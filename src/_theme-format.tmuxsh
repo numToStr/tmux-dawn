@@ -1,0 +1,11 @@
+set -goq @theme-status-left-format-first "#S"
+set -goq @theme-status-left-format-second "#(whoami)"
+set -goq @theme-status-left-format-third "#I:#P"
+
+set -goq @theme-status-right-format-first "#(acpi -b | awk -F', ' '{ print $2; exit; }')"
+set -goq @theme-status-right-format-second "%H:%M:%S"
+set -goq @theme-status-right-format-third "%a %b %d"
+set -goq @theme-status-right-format-fourth "#H"
+
+set -goq @theme-window-status-format-current "#I:#W#F"
+set -goq @theme-window-status-format "#I:#W#F"

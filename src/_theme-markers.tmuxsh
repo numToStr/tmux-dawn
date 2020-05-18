@@ -1,0 +1,26 @@
+set -goq @theme-box-highlight "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-highlight}]"
+
+set -goq @theme-marker-left-first "#[fg=#{@dawn-color-active},bg=#{@dawn-color-marker}]"
+set -goq @theme-marker-left-second "#[fg=#{@dawn-color-marker},bg=#{@dawn-color-bg}]"
+
+set -goq @theme-marker-right-first "#[fg=#{@dawn-color-active},bg=#{@dawn-color-marker}]"
+set -goq @theme-marker-right-second "#[fg=#{@dawn-color-marker},bg=#{@dawn-color-bg}]"
+
+set -goq @theme-marker-left-primary-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-primary}]"
+set -goq @theme-marker-left-primary-suffix "#[fg=#{@dawn-color-primary},bg=#{@dawn-color-bg}]"
+
+set -goq @theme-marker-left-secondary-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-secondary}]"
+set -goq @theme-marker-left-secondary-suffix "#[fg=#{@dawn-color-secondary},bg=#{@dawn-color-bg}]"
+
+set -goq @theme-marker-left-highlight-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-highlight}]"
+set -goq @theme-marker-left-highlight-suffix "#[fg=#{@dawn-color-highlight},bg=#{@dawn-color-bg}]"
+
+set -goq @theme-marker-right-primary-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-primary}]"
+set -goq @theme-marker-right-primary-suffix "#[fg=#{@dawn-color-primary},bg=#{@dawn-color-bg}]"
+
+set -goq @theme-marker-right-secondary-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-secondary}]"
+set -goq @theme-marker-right-secondary-suffix "#[fg=#{@dawn-color-secondary},bg=#{@dawn-color-bg}]"
+
+set -goq @theme-marker-right-highlight-prefix "#{@theme-box-highlight}"
+set -goq @theme-marker-right-highlight-suffix "#[fg=#{@dawn-color-highlight},bg=#{@dawn-color-bg}]"
+
