@@ -5,10 +5,10 @@ set -goq  @theme-status-interval 1
 set -goqF @theme-clock-mode-colour "#{@dawn-color-active}"
 set -goq  @theme-clock-mode-style 24
 
-set -goqF @theme-message-bg "#{@dawn-color-highlight}"
-set -goqF @theme-message-fg "#{@dawn-color-onhighlight}"
-set -goqF @theme-message-command-bg "#{@dawn-color-highlight}"
-set -goqF @theme-message-command-fg "#{@dawn-color-onhighlight}"
+set -goqF @theme-message-bg "#{@dawn-color-bg}"
+set -goqF @theme-message-fg "#{@dawn-color-primary}"
+set -goqF @theme-message-command-bg "#{@dawn-color-bg}"
+set -goqF @theme-message-command-fg "#{@dawn-color-primary}"
 
 set -goqF @theme-display-panes-active-colour "#{@dawn-color-active}"
 set -goqF @theme-display-panes-colour "#{@dawn-color-bg}"

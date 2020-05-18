@@ -1,8 +1,8 @@
 # Apply @theme-* options to Tmux
 set -gF  display-panes-active-colour "#{@theme-display-panes-active-colour}"
 set -gF  display-panes-colour "#{@theme-display-panes-colour}"
-# set -gF  message-command-style "fg=#{@theme-message-command-fg},bg=#{@theme-message-command-bg}"
-# set -gF  message-style "fg=#{@theme-message-fg},bg=#{@theme-message-bg}"
+set -gF  message-command-style "fg=#{@theme-message-command-fg},bg=#{@theme-message-command-bg}"
+set -gF  message-style "fg=#{@theme-message-fg},bg=#{@theme-message-bg}"
 set -gF  status-interval "#{@theme-status-interval}"
 set -gF  status-justify "#{@theme-status-justify}"
 set -gF  status-left "#{@theme-status-left}"
