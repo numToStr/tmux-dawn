@@ -1,0 +1,44 @@
+# Theme options
+# set -goq  @theme-status-justify left
+set -goq  @theme-status-interval 1
+
+set -goqF @theme-clock-mode-colour "#{@dawn-color-active}"
+set -goq  @theme-clock-mode-style 24
+
+set -goqF @theme-message-bg "#{@dawn-color-bg}"
+set -goqF @theme-message-fg "#{@dawn-color-primary}"
+set -goqF @theme-message-command-bg "#{@dawn-color-bg}"
+set -goqF @theme-message-command-fg "#{@dawn-color-primary}"
+
+set -goqF @theme-display-panes-active-colour "#{@dawn-color-active}"
+set -goqF @theme-display-panes-colour "#{@dawn-color-bg}"
+
+set -goqF @theme-mode-bg "#{@dawn-color-bg}"
+set -goqF @theme-mode-fg "#{@dawn-color-primary}"
+
+set -goq  @theme-pane-active-border-bg default
+set -goqF @theme-pane-active-border-fg "#{@dawn-color-highlight}"
+set -goq  @theme-pane-border-bg default
+set -goqF @theme-pane-border-fg "#{@dawn-color-bg}"
+
+set -goqF @theme-status-bg "#{@dawn-color-bg}"
+set -goqF @theme-status-fg "#{@dawn-color-primary}"
+
+set -goqF @theme-status-left "#{@theme-marker-left-first}#{@theme-marker-left-second}#{@theme-marker-left-highlight-prefix}#{@theme-box-highlight} #{@theme-status-format-left-first} #{@theme-marker-left-highlight-suffix}#{@theme-marker-left-primary-prefix}#{@theme-box-primary} #{@theme-status-format-left-second} #{@theme-marker-left-primary-suffix}#{@theme-marker-left-secondary-prefix}#{@theme-box-secondary} #{@theme-status-format-left-third} #{@theme-marker-left-secondary-suffix}"
+set -goqF @theme-status-left-bg "#{@dawn-color-bg}"
+set -goqF @theme-status-left-fg "#{@dawn-color-bg}"
+set -goq  @theme-status-left-length 150
+
+set -goqF @theme-status-right "#{@theme-marker-right-secondary-suffix}#{@theme-box-secondary} #{@theme-status-format-right-fourth} #{@theme-marker-right-secondary-prefix}#{@theme-marker-right-secondary-suffix}#{@theme-box-secondary} #{@theme-status-format-right-third} #{@theme-marker-right-secondary-prefix}#{@theme-marker-right-primary-suffix}#{@theme-box-primary} #{@theme-status-format-right-second} #{@theme-marker-right-primary-prefix}#{@theme-marker-right-highlight-suffix}#{@theme-box-highlight} #{@theme-status-format-right-first} #{@theme-marker-right-highlight-prefix}#{@theme-marker-right-second}#{@theme-marker-right-first}"
+set -goqF @theme-status-right-bg "#{@dawn-color-bg}"
+set -goqF @theme-status-right-fg "#{@dawn-color-bg}"
+set -goq  @theme-status-right-length 150
+
+set -goqF @theme-window-status-activity-bg "#{@dawn-color-bg}"
+set -goqF @theme-window-status-activity-fg "#{@dawn-color-primary}"
+set -goq  @theme-window-status-separator ""
+set -goqF @theme-window-status-current-bg "#{@dawn-color-bg}"
+set -goqF @theme-window-status-current-fg "#{@dawn-color-primary}"
+set -goqF @theme-window-status-format "#{@theme-marker-window-prefix}#{@theme-box-transparent} #{@theme-window-status-format-current} #{@theme-marker-window-suffix}"
+set -goqF @theme-window-status-current-format "#{@theme-marker-window-active-prefix}#{@theme-box-active} #{@theme-window-status-format-current} #{@theme-marker-window-active-suffix}"
+ 

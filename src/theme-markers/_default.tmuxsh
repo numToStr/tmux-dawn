@@ -1,0 +1,5 @@
+
+set -goq @theme-marker-window-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-bg}]"
+set -goq @theme-marker-window-active-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-active}]"
+
+#= include "theme-markers/_base"
