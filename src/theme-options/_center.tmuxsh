@@ -1,0 +1,3 @@
+set -goq  @theme-status-justify centre
+
+#= include "theme-options/_base"

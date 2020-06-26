@@ -1,0 +1,6 @@
+
+# Just flipping and adding some colour to the prefixes of the window tabs, so it will look like a pill rather than a arrow
+set -goq @theme-marker-window-prefix "#[fg=#{@dawn-color-bg},bg=#{@dawn-color-bg}]"
+set -goq @theme-marker-window-active-prefix "#[fg=#{@dawn-color-active},bg=#{@dawn-color-bg}]"
+
+#= include "theme-markers/_base"

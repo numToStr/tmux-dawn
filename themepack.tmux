@@ -17,12 +17,12 @@ get-tmux-option() {
 
 main() {
   local theme
-  theme="$(get-tmux-option "@themepack" "basic")"
+  theme="$(get-tmux-option "@dawntheme" "basic")"
 
   if [ -f "$CURRENT_DIR/${theme}.tmuxtheme" ]; then
     tmux source-file "$CURRENT_DIR/${theme}.tmuxtheme"
-  else
-    tmux source-file "$CURRENT_DIR/powerline/${theme}.tmuxtheme"
+  # else
+  #   tmux source-file "$CURRENT_DIR/powerline/${theme}.tmuxtheme"
   fi
 }
 

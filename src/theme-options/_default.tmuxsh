@@ -1,0 +1,3 @@
+set -goq  @theme-status-justify left
+
+#= include "theme-options/_base"
